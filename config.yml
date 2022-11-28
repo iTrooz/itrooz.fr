@@ -1,0 +1,144 @@
+baseURL: http://example.org/
+languageCode: en-us
+title: iTrooz's website
+theme: papermod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+# googleAnalytics: UA-123-45
+
+minify:
+    disableXML: true
+    # minifyOutput: true
+
+languages:
+    en:
+        languageName: "English"
+        weight: 1
+        taxonomies:
+          category: categories
+          tag: tags
+          series: series
+        menu:
+            main:
+                - name: Home
+                  url: 
+                  weight: 2
+                - name: All posts
+                  url: posts/
+                  weight: 5
+                - name: Tags
+                  url: tags/
+                  weight: 8
+                - name: Search
+                  url: search/
+                  weight: 10
+                - name: About 
+                  url: about/
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+params:
+    env: production
+    description: "iTrooz's website"
+    author: iTrooz
+
+    defaultTheme: auto
+    disableThemeToggle: false
+    ShowShareButtons: true
+    ShowReadingTime: true
+    disableSpecial1stPost: true
+    displayFullLangName: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowRssButtonInSectionTermList: true
+    ShowToc: true
+    comments: false
+
+    homeInfoParams:
+        Title: "PaperMod"
+        Content: >
+            Hi, I'm **iTrooz**
+            You can find more about me at [about](about)
+            <br>
+            On this blog you will find tutorials and articles about computer science
+            <br>
+            Click on a post and see for yourself !
+    socialIcons:
+        - name: github
+          url: "https://github.com/iTrooz"
+        - name: gitlab
+          url: "https://gitlab.com/iTrooz"
+
+    editPost:
+        URL: "https://github.com/iTrooz/itrooz.fr/tree/content"
+        Text: "Suggest Changes" # edit text
+        appendFilePath: true # to append file path to Edit link
+
+    assets:
+        disableHLJS: true
+    #     favicon: "<link / abs url>"
+    #     favicon16x16: "<link / abs url>"
+    #     favicon32x32: "<link / abs url>"
+    #     apple_touch_icon: "<link / abs url>"
+    #     safari_pinned_tab: "<link / abs url>"
+
+    # cover:
+    #     hidden: true # hide everywhere but not in structured data
+    #     hiddenInList: true # hide on list pages and home
+    #     hiddenInSingle: true # hide on single page
+
+    # fuseOpts:
+    #     isCaseSensitive: false
+    #     shouldSort: true
+    #     location: 0
+    #     distance: 1000
+    #     threshold: 0.4
+    #     minMatchCharLength: 0
+    #     keys: ["title", "permalink", "summary", "content"]
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        noClasses: false
+        # anchorLineNos: true
+        # codeFences: true
+        # guessSyntax: true
+        # lineNos: true
+        # style: monokai
+
+privacy:
+    vimeo:
+        disabled: false
+        simple: true
+
+    twitter:
+        disabled: false
+        enableDNT: true
+        simple: true
+
+    instagram:
+        disabled: false
+        simple: true
+
+    youtube:
+        disabled: false
+        privacyEnhanced: true
+
+services:
+    instagram:
+        disableInlineCSS: true
+    twitter:
+        disableInlineCSS: true
