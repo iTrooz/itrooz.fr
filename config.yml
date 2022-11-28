@@ -1,7 +1,7 @@
 baseURL: http://example.org/
 languageCode: en-us
 title: iTrooz's website
-theme: papermod
+theme: papermodx
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
