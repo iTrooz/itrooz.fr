@@ -64,6 +64,7 @@ params:
     ShowRssButtonInSectionTermList: true
     ShowToc: true
     comments: false
+    EnableInstantClick: true
 
     homeInfoParams:
         Title: "PaperMod"
