@@ -1,7 +1,7 @@
 
 The domain `itrooz.fr` is hosted by OVH. Their contact information can be found here: https://www.ovhcloud.com/fr/terms-and-conditions/
 
-The only information collected about you in this website is your IP adress, which is stored in the web server log files. This information is not shared with anyone
+The only information collected about you in this website is your IP address, which is stored in the web server log files. This information is not shared with anyone
 
 You can request your information to be deleted by contacting me. (See [About]({{< ref "/about" >}} ))
 
