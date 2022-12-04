@@ -1,7 +1,7 @@
 baseURL: https://itrooz.fr
 languageCode: en-us
 title: iTrooz's website
-theme: papermodx
+theme: ["hugo-cloak-email", "papermodx"]
 
 enableInlineShortcodes: true
 enableRobotsTXT: true

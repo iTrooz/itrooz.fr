@@ -18,3 +18,4 @@ You can contact me here :
 - GitLab: https://gitlab.com/iTrooz
 - Discord: iTrooz#2050
 - Matrix: @itrooz_:matrix.org
+- {{< cloakemail hey@itrooz.fr >}}
