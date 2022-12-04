@@ -18,4 +18,4 @@ You can contact me here :
 - GitLab: https://gitlab.com/iTrooz
 - Discord: iTrooz#2050
 - Matrix: @itrooz_:matrix.org
-- {{< cloakemail hey@itrooz.fr >}}
+- Email: {{< cloakemail "hey@itrooz.fr" >}} (It is not copiable because of cloaking protection, do not lose your mind over it :))
