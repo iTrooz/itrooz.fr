@@ -19,3 +19,5 @@ You can contact me here :
 - Discord: iTrooz#2050
 - Matrix: @itrooz_:matrix.org
 - Email: {{< cloakemail "hey@itrooz.fr" >}} (It is not copiable because of cloaking protection, do not lose your mind over it :))
+
+If you want to contact me "securely", you can take a look at [my keys]({{< ref "/keys" >}})
